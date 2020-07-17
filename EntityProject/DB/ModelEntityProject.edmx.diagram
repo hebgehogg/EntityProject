@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f36ee119584842fcb9e5d35ebd492774" Name="Diagram1">
+        <EntityTypeShape EntityType="BuyGamesModel.buy" Width="1.5" PointX="0.5" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuyGamesModel.clients" Width="1.5" PointX="2.875" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuyGamesModel.games" Width="1.5" PointX="2.875" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuyGamesModel.genres" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuyGamesModel.sysdiagrams" Width="1.5" PointX="9.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuyGamesModel.game_price" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="BuyGamesModel.FK_buy_clients" ManuallyRouted="false" />
+        <AssociationConnector Association="BuyGamesModel.FK_buy_games" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="BuyGamesModel.FK_game_price_games" ManuallyRouted="false" />
+        <AssociationConnector Association="BuyGamesModel.FK_genres_games" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
